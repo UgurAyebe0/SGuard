@@ -1,0 +1,39 @@
+version: Softepen.SGuard.V1
+
+mysql:
+  host: "your_mysql_host"
+  port: 3306
+  database: "your_database_name"
+  username: "your_mysql_username"
+  password: "your_mysql_password"
+
+staff:
+  - Softepen
+  - SoftepenV2
+
+messages:
+  prefix: '&6Softepen &8| &eSGuard&7: &6'
+  unconfirmed: '&cYou are not confirmed yet. Please use /sguard <code> to confirm your identity.'
+  ban-message: '&cYou have been banned for illegal activity.'
+  pleaseaccount: 'Please confirm your account.'
+  sublin1: 'Time in '
+  sublin2: 'seconds remaining'
+  autoaccount: 'Your account has been automatically Verified.'
+  verfyaccount: 'Your Account has been Verified.'
+  no-console: '&cThis command can only be used by players.'
+  confirm: '&cPlease provide a confirmation code.'
+  noPerm: '&cYou do not have sufficient permission.'
+  confirmed: '&aYou have been confirmed.'
+  confirm-message: '&ePlease use /sguard <code> to confirm your identity.'
+  forbiddenEnchant: '&cThere is an item with a forbidden enchantment level.'
+  forbiddenItems: '&cYou have items in the quantity of prohibited items.'
+  Errorİtems: '&cThe item could not be found.'
+
+settings:
+  kicktime: 90
+  autologin: true
+Forbidden:
+  items:
+    SPAWNER: 500
+  enchant:
+    sharpness: 50

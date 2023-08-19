@@ -1,0 +1,20 @@
+name: SGuard
+version: '1.0' # Sürüm numarasını güncelleyin
+main: com.softepen.SGuard
+
+website: www.softepen.com
+author: Edge and Niuren_
+description: This plugin controls perms, items, enchants and has 2FA protection.
+
+commands:
+  sguard:
+    description: SGuard command
+
+permissions:
+  sguard.ban: # Yetkinin adını ve açıklamasını düzeltin
+    description: Banned player
+    default: false
+
+  softepen.staff: # Yetkinin adını düzeltin
+    description: Staff permission
+    default: false
